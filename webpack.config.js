@@ -27,11 +27,6 @@ module.exports = {
       filename: 'index.html'
     })
   ],
-  output: {
-    path: __dirname + '/dist',
-    publicPath: '/assets/',
-    filename: 'bundle.js'
-  },
   devServer: {
     contentBase: './dist'
   }
